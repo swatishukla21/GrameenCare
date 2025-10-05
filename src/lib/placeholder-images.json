@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "A portrait of a female doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1674049406176-021807a2802e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2N0b3IlMjB3b21hbnxlbnwwfHx8fDE3NTk2MDA3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor woman"
+    },
+    {
+      "id": "2",
+      "description": "A portrait of a male doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1631558554770-74e921444006?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkb2N0b3IlMjBtYW58ZW58MHx8fHwxNzU5Njc3MzE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor man"
+    },
+    {
+      "id": "3",
+      "description": "A portrait of another female doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1619416284511-9daa6d7ea19f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2N0b3IlMjBzbWlsaW5nfGVufDB8fHx8MTc1OTY0Njc3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor smiling"
+    },
+    {
+      "id": "4",
+      "description": "A portrait of another male doctor.",
+      "imageUrl": "https://images.unsplash.com/photo-1612523138351-4643808db8f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkb2N0b3IlMjBwcm9mZXNzaW9uYWx8ZW58MHx8fHwxNzU5NjQzMTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "doctor professional"
+    }
+  ]
 }
