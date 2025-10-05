@@ -14,17 +14,19 @@ export function DoctorCard({ doctor }: DoctorCardProps) {
   const placeholder = getPlaceholderImage(doctor.image);
 
   return (
-    <Card className="flex flex-col">
+    <Card className="flex flex-col group hover:shadow-lg transition-shadow duration-300">
       <CardHeader className="items-center">
         {placeholder && (
-          <Image
-            src={placeholder.imageUrl}
-            alt={`Portrait of ${doctor.name}`}
-            data-ai-hint={placeholder.imageHint}
-            width={128}
-            height={128}
-            className="rounded-full border-4 border-background shadow-md"
-          />
+          <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-background shadow-md group-hover:scale-105 transition-transform duration-300">
+            <Image
+              src={placeholder.imageUrl}
+              alt={`Portrait of ${doctor.name}`}
+              data-ai-hint={placeholder.imageHint}
+              width={128}
+              height={128}
+              className="object-cover w-full h-full"
+            />
+          </div>
         )}
       </CardHeader>
       <CardContent className="flex-1 text-center">
